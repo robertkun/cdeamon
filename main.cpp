@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
 				sleep(1);
 
 				if (check_sig()) {
-					printf("receive signal，program exit！!!");
+					printf("receive exit signal，program exit！!!");
 					break;
 				}
 			}
